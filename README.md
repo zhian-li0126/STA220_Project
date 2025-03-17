@@ -92,28 +92,13 @@ The project code is organized into several primary components:
 
 ```
 /
-├── scraping/              # Web scraping scripts
-│   ├── bbc_scraper.py     # BBC data collection using BeautifulSoup
-│   ├── guardian_api.py    # Guardian API access
-│   └── nyt_api.py         # NYT API access
-│
-├── processing/            # Data preprocessing modules
+├── main/            # Data preprocessing modules
 │   ├── text_processing.py # Text normalization, tokenization
-│   └── entity_unifier.py  # Name standardization
+│   └── api_scrap.py  # Name standardization
 │
-├── analysis/              # Analysis scripts
-│   ├── frequency.py       # Term frequency analysis
-│   ├── topic_model.py     # LDA implementation
-│   └── sentiment.py       # Sentiment analysis
+├── visualization/         # Visualization
 │
-├── visualization/         # Visualization tools
-│   ├── freq_charts.py     # Bar charts for frequency data
-│   ├── heatmaps.py        # Regional heat maps
-│   └── interactive_map/   # Interactive visualization files
-│
-└── data/                  # Data storage (not included in repo)
-    ├── raw/               # Raw JSON data
-    └── processed/         # Processed analysis results
+└── data/                  # Data storage
 ```
 
 ## Installation and Setup
@@ -128,27 +113,6 @@ The project code is organized into several primary components:
 - Seaborn
 - Plotly
 
-### Installation
-```bash
-git clone https://github.com/username/russo-ukrainian-war-news-analysis.git
-cd russo-ukrainian-war-news-analysis
-pip install -r requirements.txt
-```
-
-### Usage
-1. Configure API keys in `config.py` (for Guardian and NYT)
-2. Run data collection:
-   ```bash
-   python scraping/main_scraper.py
-   ```
-3. Run analysis pipeline:
-   ```bash
-   python analysis/run_analysis.py
-   ```
-4. Generate visualizations:
-   ```bash
-   python visualization/generate_charts.py
-   ```
 
 ## Interactive Visualization
 The interactive visualization of country-level mentions is available at:
