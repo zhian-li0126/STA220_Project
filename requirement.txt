@@ -1,1 +1,39 @@
+# Web scraping and API interaction
+requests>=2.27.1
+beautifulsoup4>=4.11.1
+lxml>=4.8.0
 
+# Data processing and analysis
+numpy>=1.22.3
+pandas>=1.4.2
+scipy>=1.8.0
+
+# Natural Language Processing
+nltk>=3.7
+scikit-learn>=1.0.2
+textblob>=0.17.1
+spacy>=3.4.0
+gensim>=4.2.0
+
+# Visualization
+matplotlib>=3.5.1
+seaborn>=0.11.2
+plotly>=5.7.0
+folium>=0.12.1
+
+# Data formatting and storage
+json5>=0.9.6
+pyarrow>=7.0.0
+
+# Geospatial analysis
+geopandas>=0.10.2
+geopy>=2.2.0
+
+# Jupyter notebooks (for development and demonstration)
+jupyter>=1.0.0
+notebook>=6.4.10
+ipykernel>=6.13.0
+
+# Web application (for interactive visualization)
+dash>=2.3.1
+flask>=2.1.1
