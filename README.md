@@ -5,13 +5,9 @@
 This project analyzes global news coverage of the Russo-Ukrainian War from 2022-2025 through natural language processing of news headlines from three major international news networks: BBC, The Guardian, and The New York Times. The research provides insights into how major mainstream media outlets report on international political events through keyword analysis, topic modeling, and sentiment exploration.
 
 ## Authors
-- **Zhian Li** - Department of Biological and Agricultural Engineering, University of California, Davis
-  - Contributions: Web scraping, LDA topic modeling, sentiment analysis
-  - Contact: zanli@ucdavis.edu
+- **Zhian Li**
   
-- **Haojian Li** - Department of Communication, University of California, Davis
-  - Contributions: Web scraping, visualization, interactive visualization
-  - Contact: hiji@ucdavis.edu
+- **Haojian Li**
 
 ## Data Collection
 The project collected news headlines related to the Russo-Ukrainian War from three major news outlets:
